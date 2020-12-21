@@ -266,15 +266,20 @@ header {
   flex-basis: 23.5%;
 }
 
-.book-list figure { text-align: center; }
+.book-list figure {
+  text-align: center;
+  cursor: pointer;
+}
+
 .book-list img { height: 362px; }
 
 .book-list figcaption {
   margin: 10px 0;
-  color: #30312C;
   font-size: 18px;
   text-transform: lowercase;
 }
+
+.book-list figure a { color: #30312C; }
 
 .navigators {
   margin: 35px 0;
