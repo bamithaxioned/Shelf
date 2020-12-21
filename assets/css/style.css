@@ -109,13 +109,78 @@ li {
   padding: 0;
   box-sizing: border-box;
 }
+body { font-family: 'Poppins', sans-serif; }
 
 /* Common Classes */
 .upper-case { text-transform: uppercase; }
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  width: 100%;
+  padding: 25px 0;
+  position: absolute;
+  top: 63%;
+  left: 0;
+  background-color: #13161D;
+  opacity: .7;
+}
 
+.navigation {
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+  transition: .4s;
+}
+
+.nav-link:hover { color: #789fbd; }
+
+.hamburger {
+  display: none;
+  z-index: 2;
+  cursor: pointer;
+  text-indent: -999999px;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  border-radius: 20%;
+  margin: 7px 0;
+  display: block;
+  background-color: #fff;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+.hamburger.active .line { background-color: #fff; }
+
+.hamburger.active .line1 {
+  -webkit-transform:  translateY(12px) rotate(41deg);
+  -ms-transform:  translateY(12px) rotate(41deg);
+  transform: translateY(10px) rotate(45deg);
+ }
+
+.hamburger.active .line2 {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+ }
+
+.hamburger.active .line3 {
+  -webkit-transform: translateY(-10px) rotate(-46deg);
+  -ms-transform: translateY(-10px) rotate(-46deg);
+  transform: translateY(-10px) rotate(-46deg);
+  -ms-transform: translateY(-10px) rotate(-46deg);
+  transform: translateY(-10px) rotate(-45deg);
+}
 /*=================================
   Header styling ends here
 =================================*/  
