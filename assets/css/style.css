@@ -189,6 +189,41 @@ header {
   main styling starts here
 =================================*/
 
+/* banner styling starts here */
+
+.banner {
+  /* position: relative; */
+  border-bottom: 11px solid #2A649A;
+}
+
+.banner figure {
+  height: 481px;
+}
+
+.banner-content {
+  width: 50%;
+  position: absolute;
+  top: 49px;
+  left: 67px;
+}
+
+.banner-heading a{
+  margin-bottom: 4px;
+  color: #F4FFFF;
+  font-size: 55px;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 2px #000;
+  text-transform: uppercase;
+}
+
+.banner-para{
+  color: #F4FFFF;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 2px #000;
+}
+/* banner styling ends here */
+
 /*=================================
   main styling ends here
 =================================*/
