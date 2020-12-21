@@ -225,6 +225,62 @@ header {
 }
 /* banner styling ends here */
 
+/* bookstore styling starts here */
+
+.bookstore {
+  padding: 75px 0 50px;
+  overflow: hidden;
+}
+
+.bookstore-heading {
+  color: #66696E;
+  font-size: 32px;
+  text-transform: lowercase;
+}
+
+.bookstore-para{
+  margin: 19px 0 94px;
+  color: #373A3B;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.book-list-container {
+  display: flex;
+  width: 100%;
+}
+
+.book-list {
+  width: 100%;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book-list.active { display: flex; }
+
+.book-list li {
+  margin-bottom: 38px;
+  flex-basis: 23.5%;
+}
+
+.book-list figure {
+  text-align: center;
+}
+
+.book-list img {
+  height: 362px;
+}
+
+.book-list figcaption {
+  margin: 10px 0;
+  color: #30312C;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+
+/* bookstore styling ends here */
+
 /*=================================
   main styling ends here
 =================================*/
