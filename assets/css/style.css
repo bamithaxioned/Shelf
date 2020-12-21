@@ -355,7 +355,25 @@ header {
   footer styling starts here
 =================================*/ 
 
+footer {
+  padding: 13px 0;
+  background-color: #323232;
+}
 
+footer .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright,
+.footer-heading,
+.footer-heading a{
+  color: #EAEAEA;
+  font-size: 19px;
+}
+
+.copyright { margin-right: 5px; }
  /*=================================
   footer styling ends here
 =================================*/ 
