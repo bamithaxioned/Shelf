@@ -192,8 +192,9 @@ header {
 /* banner styling starts here */
 
 .banner {
-  /* position: relative; */
   border-bottom: 11px solid #2A649A;
+  position: relative;
+  z-index: -1;
 }
 
 .banner figure {
