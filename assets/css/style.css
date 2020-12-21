@@ -54,8 +54,7 @@ em { font-style: italic; }
 
 img {
   width: 100%;
-  border: 0;
-  vertical-align: middle;
+  height: auto;
 }
 
 sub,
@@ -99,8 +98,8 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  max-width: 1165px;
+  width: 91%; 
   margin: 0 auto;
 }
 
@@ -110,6 +109,9 @@ li {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Common Classes */
+.upper-case { text-transform: uppercase; }
 /*=================================
   Header styling starts here
 =================================*/
